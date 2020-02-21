@@ -184,15 +184,39 @@ class SubClass(BClass):
 subObj = SubClass("dog", 12)
 subObj.printName()
 
+# 迭代器
+animal = ["dog", "cat", "person"]
 
-def f(a, L=[]):
-    L.append(a)
-    return L
 
-# words = ['a', 'b', 'c']
-# for w in words:
-#     time.sleep(5)
-#     print(w)
-#     if w == 'c':
-#         words.insert(-1,'c')
-#     print(words)
+class ZooReverse:
+    def __init__(self, animals):
+        self.animal = animals
+        self.index = len(animal)
+
+    def __iter__(self):  # 返回一个有__next__的方法的对象 当前类有该方法所以直接返回自己
+        return self
+
+    def __next__(self):  # 该方法可以写到别的对象中去 用该方法返回for语句的值
+        if self.index == 0:
+            raise StopIteration
+        self.index -= 1
+        return self.animal[self.index]
+
+
+for ani in ZooReverse(animal):
+    print(ani)
+
+
+# 生成器 和前面类的方法类似不过要简洁 而且能保存状态
+def reverse(data):  # 方法返回一个generator
+    for index in range(len(data) - 1, -1, -1):
+        tmp = yield data[index]  # 生成器会保存yield修饰的变量的状态返回给next 并在此处停留 tmp的值有send方法传递进来
+        print("tmp:", tmp)  # 调用下个next时候执行
+
+
+data = ["data1", "data2", "data3"]
+generator = reverse(data)
+print(next(generator))
+print(next(generator))
+print(generator.send("tmp_data4"))
+next(generator)
