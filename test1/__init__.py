@@ -179,6 +179,8 @@ class SubClass(BClass):
         print("subClassName", self.name)
 
 
+# python 是动态类型的语言所以有多态特性
+# subObj 赋值什么对象就是什么对象 没有明确的类型 这和java的多态一样
 subObj = SubClass("dog", 12)
 subObj.printName()
 
