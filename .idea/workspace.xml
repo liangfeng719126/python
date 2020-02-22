@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f03508e-4a3d-42ec-9b47-d3335d769411" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnCpy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnCpy/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnCpy/test_cpy_model.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnnumpy/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +37,39 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/learnCpy" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/learnCpy" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__init__">
+  <component name="RunManager" selected="Python.__init__ (1)">
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ml2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnCpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnCpy/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ml2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.model" />
       </list>
@@ -110,82 +138,93 @@
       <option name="project" value="LOCAL" />
       <updated>1582273661960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="python的生成器">
+      <created>1582287528340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582287528340</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python的多态特性" />
-    <option name="LAST_COMMIT_MESSAGE" value="python的多态特性" />
+    <MESSAGE value="python的生成器" />
+    <option name="LAST_COMMIT_MESSAGE" value="python的生成器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="171" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581910495951">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="171" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.827@0.23.1440.827" timestamp="1581910495951" />
-    <state x="340" y="23" key="CommitChangelistDialog2" timestamp="1582273661766">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="340" y="23" key="CommitChangelistDialog2" timestamp="1582287528148">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
+    <state x="340" y="23" key="CommitChangelistDialog2/0.23.1440.816@0.23.1440.816" timestamp="1582287528148" />
     <state x="340" y="23" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1582273661766" />
     <state x="487" y="249" key="FileChooserDialogImpl" timestamp="1581754547058">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="487" y="249" key="FileChooserDialogImpl/0.23.1440.825@0.23.1440.825" timestamp="1581754547058" />
-    <state width="1379" height="172" key="GridCell.Tab.0.bottom" timestamp="1582287330884">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1379" height="228" key="GridCell.Tab.0.bottom" timestamp="1582384621333">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1379" height="200" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1581757847061">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1379" height="200" key="GridCell.Tab.0.bottom.inPresentationMode/0.23.1440.822@0.23.1440.822" timestamp="1581757847061" />
     <state width="1379" height="172" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1582287330884" />
-    <state width="1379" height="172" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1582275659610" />
-    <state width="1379" height="159" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1582190560382" />
+    <state width="1379" height="228" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1582384621333" />
+    <state width="1379" height="172" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1582382795297" />
     <state width="1379" height="153" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1582265479319" />
     <state width="1379" height="151" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1581907710658" />
-    <state width="1379" height="172" key="GridCell.Tab.0.center" timestamp="1582287330883">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1379" height="228" key="GridCell.Tab.0.center" timestamp="1582384621332">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1379" height="200" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1581757847061">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1379" height="200" key="GridCell.Tab.0.center.inPresentationMode/0.23.1440.822@0.23.1440.822" timestamp="1581757847061" />
     <state width="1379" height="172" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1582287330883" />
-    <state width="1379" height="172" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1582275659609" />
-    <state width="1379" height="159" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1582190560382" />
+    <state width="1379" height="228" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1582384621332" />
+    <state width="1379" height="172" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1582382795296" />
     <state width="1379" height="153" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1582265479318" />
     <state width="1379" height="151" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1581907710657" />
-    <state width="1379" height="172" key="GridCell.Tab.0.left" timestamp="1582287330883">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1379" height="228" key="GridCell.Tab.0.left" timestamp="1582384621331">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1379" height="200" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1581757847060">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1379" height="200" key="GridCell.Tab.0.left.inPresentationMode/0.23.1440.822@0.23.1440.822" timestamp="1581757847060" />
     <state width="1379" height="172" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1582287330883" />
-    <state width="1379" height="172" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1582275659608" />
-    <state width="1379" height="159" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1582190560381" />
+    <state width="1379" height="228" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1582384621331" />
+    <state width="1379" height="172" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1582382795295" />
     <state width="1379" height="153" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1582265479317" />
     <state width="1379" height="151" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1581907710656" />
-    <state width="1379" height="172" key="GridCell.Tab.0.right" timestamp="1582287330884">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1379" height="228" key="GridCell.Tab.0.right" timestamp="1582384621332">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1379" height="200" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1581757847061">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1379" height="200" key="GridCell.Tab.0.right.inPresentationMode/0.23.1440.822@0.23.1440.822" timestamp="1581757847061" />
     <state width="1379" height="172" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1582287330884" />
-    <state width="1379" height="172" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1582275659610" />
-    <state width="1379" height="159" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1582190560382" />
+    <state width="1379" height="228" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1582384621332" />
+    <state width="1379" height="172" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1582382795296" />
     <state width="1379" height="153" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1582265479318" />
     <state width="1379" height="151" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1581907710657" />
-    <state x="183" y="98" key="SettingsEditor" timestamp="1582268316516">
+    <state x="278" y="84" key="SettingsEditor" timestamp="1582384189492">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="183" y="98" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1581824379795" />
-    <state x="183" y="98" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1582268316516" />
-    <state x="307" y="155" key="Vcs.Push.Dialog.v2" timestamp="1582273674535">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="278" y="84" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582382314070" />
+    <state x="278" y="84" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1582384189492" />
+    <state x="307" y="154" key="Vcs.Push.Dialog.v2" timestamp="1582287532458">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
+    <state x="307" y="154" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1582287532458" />
     <state x="307" y="155" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1582273674535" />
     <state x="399" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1581753049970">
       <screen x="0" y="23" width="1440" height="825" />
