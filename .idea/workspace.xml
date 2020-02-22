@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f03508e-4a3d-42ec-9b47-d3335d769411" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learnCpy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnCpy/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnCpy/test_cpy_model.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnnumpy/__init__.py" afterDir="false" />
+    <list default="true" id="1f03508e-4a3d-42ec-9b47-d3335d769411" name="Default Changelist" comment="c语言的扩展">
+      <change afterPath="$PROJECT_DIR$/learnCpy/build/lib.macosx-10.9-x86_64-3.7/test4.cpython-37m-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnCpy/build/temp.macosx-10.9-x86_64-3.7/test_cpy_model.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1XppdznBY8ZtiuI8s1rNVwvwOeH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -145,24 +144,32 @@
       <option name="project" value="LOCAL" />
       <updated>1582287528340</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="c语言的扩展">
+      <created>1582384752976</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582384752976</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python的多态特性" />
     <MESSAGE value="python的生成器" />
-    <option name="LAST_COMMIT_MESSAGE" value="python的生成器" />
+    <MESSAGE value="c语言的扩展" />
+    <option name="LAST_COMMIT_MESSAGE" value="c语言的扩展" />
   </component>
   <component name="WindowStateProjectService">
     <state x="171" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581910495951">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="171" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.827@0.23.1440.827" timestamp="1581910495951" />
-    <state x="340" y="23" key="CommitChangelistDialog2" timestamp="1582287528148">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="340" y="23" key="CommitChangelistDialog2" timestamp="1582384903955">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="340" y="23" key="CommitChangelistDialog2/0.23.1440.816@0.23.1440.816" timestamp="1582287528148" />
-    <state x="340" y="23" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1582273661766" />
+    <state x="340" y="23" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1582384903955" />
     <state x="487" y="249" key="FileChooserDialogImpl" timestamp="1581754547058">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
@@ -221,14 +228,18 @@
     <state x="183" y="98" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1581824379795" />
     <state x="278" y="84" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582382314070" />
     <state x="278" y="84" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1582384189492" />
-    <state x="307" y="154" key="Vcs.Push.Dialog.v2" timestamp="1582287532458">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="307" y="155" key="Vcs.Push.Dialog.v2" timestamp="1582384755420">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="307" y="154" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1582287532458" />
-    <state x="307" y="155" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1582273674535" />
+    <state x="307" y="155" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1582384755420" />
     <state x="399" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1581753049970">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="399" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.825@0.23.1440.825" timestamp="1581753049970" />
+    <state x="524" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582384908990">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="524" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.825@0.23.1440.825" timestamp="1582384908990" />
   </component>
 </project>
